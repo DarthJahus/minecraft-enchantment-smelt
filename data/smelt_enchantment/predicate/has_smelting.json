@@ -1,0 +1,13 @@
+{
+  "condition": "minecraft:match_tool",
+  "predicate": {
+    "predicates": {
+      "minecraft:enchantments": [
+        {
+          "enchantments": "smelt_enchantment:smelt",
+          "levels": { "min": 1 }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "description": "Smelt",
+  "supported_items": "#minecraft:pickaxes",
+  "primary_items": "#minecraft:pickaxes",
+  "exclusive_set": "#smelt_enchantment:exclusive_set/smelt",
+  "weight": 1,
+  "max_level": 4,
+  "min_cost": {
+    "base": 15,
+    "per_level_above_first": 10
+  },
+  "max_cost": {
+    "base": 65,
+    "per_level_above_first": 10
+  },
+  "anvil_cost": 10,
+  "slots": ["mainhand"],
+  "effects": {
+    "minecraft:hit_block": [
+      {
+        "effect": {
+          "type": "minecraft:spawn_particles",
+          "particle": { "type": "minecraft:smoke" },
+          "horizontal_position": { "type": "entity_position" },
+          "vertical_position": { "type": "entity_position" },
+          "horizontal_velocity": {},
+          "vertical_velocity": {}
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:spawn_particles",
+          "particle": { "type": "minecraft:flame" },
+          "horizontal_position": { "type": "entity_position" },
+          "vertical_position": { "type": "entity_position" },
+          "horizontal_velocity": {},
+          "vertical_velocity": {}
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:play_sound",
+          "sound": "minecraft:block.fire.ambient",
+          "volume": 0.3,
+          "pitch": 0.7
+        }
+      }
+    ]
+  }
+}
