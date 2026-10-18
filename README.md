@@ -2,6 +2,9 @@
 Pickaxe enchantment that has a chance to **smelt ores on mine**, dropping the ingot instead of the raw material.  
 Compatible with **Fortune**. Incompatible with **Silk Touch**.
 
+[![Modrinth](https://img.shields.io/modrinth/dt/jahus-smelt-enchantment?logo=modrinth&label=Modrinth)](https://modrinth.com/datapack/jahus-smelt-enchantment)
+[![CurseForge](https://img.shields.io/curseforge/dt/1751991?logo=curseforge&label=CurseForge)](https://www.curseforge.com/projects/1751991)
+
 **Namespace:** `smelt_enchantment:smelt`
 
 ## Effect
